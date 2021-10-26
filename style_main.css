@@ -66,12 +66,12 @@ body{
 
 .main_left{
   height: 60vmin;
-  width: 48%;
+  width: 72vmin;
   background-color: transparent;
   margin-top: 13vmin;
 }
 .text_main{
-  margin-left: 10vmin;
+  margin-left: 4vmin;
 }
 
 .our{
@@ -113,7 +113,7 @@ body{
 
 .main_right{
   height: 60vmin;
-  width: 48%;
+  width: 91vmin;
   background-color: transparent;
   margin-top: 13vmin;
 }
