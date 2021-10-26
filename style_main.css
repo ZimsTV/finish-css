@@ -2,8 +2,12 @@ html, body {
   height: 100%;
   width: 100%;
   position: sticky;
-  margin: 0%;
+  margin: 0%;  
 }
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto.ttf");
+  }
 
 html::-webkit-scrollbar{
   width: 10px;
@@ -16,6 +20,9 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
   background-color:yellow;
   border-radius: 5px;
+}
+body{
+  background-color: cornsilk;
 }
 
 .head{
@@ -33,7 +40,7 @@ html::-webkit-scrollbar-thumb{
   flex-wrap: wrap;
   align-content: stretch;
   justify-content: space-evenly;
-}
+  }
 
 .main_left{
   height: 80vmin;
@@ -46,12 +53,12 @@ html::-webkit-scrollbar-thumb{
 }
 
 .our{
-  font-family:Arial;
+  font-family:Roboto , Arial;
   font-size: 100px;
 
 }
 .Yatoro{
-  font-family:Arial;
+  font-family:Roboto , Arial;
   font-size: 25px;
   margin-top: 2vmin;
 }
@@ -86,4 +93,12 @@ html::-webkit-scrollbar-thumb{
   width: 48%;
   background-color: blueviolet;
   margin-top: 13vmin;
+}
 
+.vidos{
+  height: 41vmin;
+  width: 77%;
+  margin-top: 1vmin;
+  margin-left: 13vmin;
+  
+}
