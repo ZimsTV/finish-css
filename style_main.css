@@ -26,12 +26,34 @@ body{
 }
 
 .head{
-  height: 12vmin;
-  width: 90%;
-  background-color:#312b2c;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5vmin;
+    display: flex;
+    height: 12vmin;
+    width: 90%;
+    background-color: #312b2c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vmin;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+  height: 7vmin;
+  width: 13vmin;
+  background-color: transparent;
+  text-align: center;
+  margin-right: 3vmin;
+  padding-top: 5vmin;
+  color: white;
+  font-family:Roboto , Arial;
+}
+
+.box:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
 }
 
 .main{
@@ -45,7 +67,7 @@ body{
 .main_left{
   height: 60vmin;
   width: 48%;
-  background-color: blueviolet;
+  background-color: transparent;
   margin-top: 13vmin;
 }
 .text_main{
@@ -92,13 +114,13 @@ body{
 .main_right{
   height: 60vmin;
   width: 48%;
-  background-color: blueviolet;
+  background-color: transparent;
   margin-top: 13vmin;
 }
 
 .vidos{
   height: 41vmin;
-  width: 77%;
+  width: 75vmin;
   margin-top: 1vmin;
-  margin-left: 15vmin;
+  margin-left: 12vmin;
   }
