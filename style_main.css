@@ -43,7 +43,7 @@ body{
   }
 
 .main_left{
-  height: 80vmin;
+  height: 60vmin;
   width: 48%;
   background-color: blueviolet;
   margin-top: 13vmin;
@@ -54,12 +54,13 @@ body{
 
 .our{
   font-family:Roboto , Arial;
-  font-size: 100px;
-
+  font-size: 7vmin;
+  height: 20vmin;
+  width: 100%;
 }
 .Yatoro{
   font-family:Roboto , Arial;
-  font-size: 25px;
+  font-size: 2.5vmin;
   margin-top: 2vmin;
 }
 
@@ -89,7 +90,7 @@ body{
 }
 
 .main_right{
-  height: 80vmin;
+  height: 60vmin;
   width: 48%;
   background-color: blueviolet;
   margin-top: 13vmin;
@@ -99,6 +100,5 @@ body{
   height: 41vmin;
   width: 77%;
   margin-top: 1vmin;
-  margin-left: 13vmin;
-  
-}
+  margin-left: 15vmin;
+  }
